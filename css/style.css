@@ -1,0 +1,227 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+#indexbg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0,0,0,0.2)), url(../10.png);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+    top: 15%;
+}
+
+ul{
+   list-style-type: none ;
+   float:right;
+   margin-right:200px;
+
+}
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 7px solid yellowgreen;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background:yellow;
+    color:rgb(83, 6, 83);
+
+}
+.main{
+    margin: 0px;
+}
+.click{
+    position: absolute;
+    top: 20%;
+    margin-left: 200px;
+    margin-right: 200px;
+    transform: translate(-50%-50%);
+    border: 0px solid gray;
+    
+}
+.click h1{
+    padding: 30px;
+    color: rgb(223, 250, 210);
+    font-size: 25px;
+}
+form{
+    position: absolute;
+    top: 17%;
+    margin-left: 30%;
+    transform: translate(-50%-50%);
+    border: 6px solid gray;
+    padding-left: 100px;
+    padding-right: 100px;
+    background:rgba(230, 230, 35, 0.822);
+    font-size: 27px;
+}
+input{border-radius: 8px;
+    width: 65%;
+        border: 2px solid black;
+    margin: 8px;
+    font-size: 14px;
+    padding: 3px;
+}
+#occupation{
+    border-radius: 9px;
+    width: 69%;
+    border: 2px solid black;
+    margin: 2px;
+    font-size: 29px;
+    padding: 0px;
+}
+#gov{
+    width: 8%;
+    border: bisque;
+border-radius: 8px;
+}
+#state{width: 75%;
+    font-size: 68%;
+    border: bisque;
+border-radius: 8px;}
+#category{width: 55%;
+font-size: 68%;
+    border: bisque;
+border-radius: 8px;}
+#Income{width: 45%;
+font-size: 68%;
+    border: bisque;
+border-radius: 8px;}
+#other{width: 88%;
+    background: khaki;
+    border: bisque;
+border-radius: 8px;}
+.gender{
+width: 8%;
+}
+#adultbg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.123),rgba(0, 0, 0, 0.644)), url(../5.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+#head{
+    font-size: 64px;
+    text-align: center;
+}
+#childbg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.123),rgba(0, 0, 0, 0.644)), url(../6.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+#gbybg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.377)), url(../100.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+#gby1{
+    margin-left: 35px;
+    color: rgb(223, 250, 210);
+    font-size: 25px;
+}
+#gby2{
+    margin-left: 35px;
+    color:rgb(247, 159, 247);
+    font-size: 20px;
+}
+.heading{
+    margin-left: 35px;
+    color:rgb(133, 33, 248);
+    font-size: 40px;
+}
+.btn{
+    background-color:rgb(241, 240, 240);
+    padding: 16px;
+    margin:5px ;
+    font-size: 34px;
+    cursor: pointer;
+    border-radius: 50px;
+    color:turquoise;
+}
+a{
+    text-decoration: rgb(61, 7, 75);
+}
+a:hover{
+    color: rgb(15, 13, 11);
+}
+#nsapbg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.178),rgba(0, 0, 0, 0.247)), url(../101.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+#nsap1{
+    color: thistle;
+    margin-left: 35px;
+}
+#nsap2{
+    font-size: 22px;
+    color:rgb(213, 226, 252);
+    margin-left: 35px;
+}
+#pmksybg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.021),rgba(0, 0, 0, 0.007)), url(../103.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+#pmksy2{
+    font-size: 22px;
+    margin-left: 35px;
+}
+#pmsbybg{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.089),rgba(255, 255, 255, 0.007)), url(../102.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+#h{
+    color:rgb(34, 14, 148);
+}
+#apybg{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.089),rgba(255, 255, 255, 0.007)), url(../106.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+p{
+    margin-left: 35px;
+}
+#icd{
+    font-size: 20px;
+}
+#kgbvbg{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.089),rgba(255, 255, 255, 0.26)), url(../106.jpg);
+    height: 1003px;
+    background-position: center;
+    background-size: cover;
+}
+#j{
+    
+    color:rgb(255,255, 255);
+    font-size: 22px;
+}
+#k{
+    color:bisque;
+    font-size: 20px;
+}
+#f{
+    font-size: 35px;
+    margin-left: 25%;
+}
+#obg{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.089),rgba(255, 255, 255, 0.26)), url(../105.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+}
